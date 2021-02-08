@@ -1,0 +1,6 @@
+.idea/
+/vendor/
+zm.json
+/zm_data/
+composer.lock
+.DS_Store
