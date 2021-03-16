@@ -1,14 +1,16 @@
 # zhamao-framework-starter
-炸毛框架的快速开始模板，是炸毛框架开箱即用的项目。
+炸毛框架的快速开始模板，是炸毛框架开箱即用的项目，基于炸毛框架的支持微信公众号一键对接现有OneBot协议后端代码的炸毛框架兼容层。
 
-[![Latest Stable Version](http://img.shields.io/packagist/v/zhamao/framework-starter.svg)](https://packagist.org/packages/zhamao/framework-starter)
-
-注意：本快速模板目前拉取的都是 v2 的版本，如果想使用 v1 的版本，请使用版本号后缀 `^1.4`。
+此模板和 <https://github.com/zhamao-robot/zhamao-framework-starter> 相同，唯一的区别就是此脚手架附带了对微信公众号的被动消息回复的最基本的聊天回复功能。
 
 ## 用法
+见 [与微信公众号（个人订阅号）对接炸毛框架，一次代码两处可用](https://framework.zhamao.xin/advanced/wechat-impl/)（还没写完，不着急）
+
+## 启动
 ```bash
-composer create-project zhamao/framework-starter <你的项目名称>
-cd <你的项目名称>
+git clone https://github.com/zhamao-robot/zhamao-framework-wx-starter.git
+cd zhamao-framework-wx-starter/
+composer update
 vendor/bin/start server
 ```
 
